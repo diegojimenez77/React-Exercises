@@ -1,21 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Testimonio from './componentes/Testimonio.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>React App - Cambio en espaniol</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='contenedor-principal'>
+        <h1>Esto es lo que dicen nuestros alumnos de Cooding-Bootcamp</h1>
+        <Testimonio/> 
+      </div>
+
     </div>
   );
 }
